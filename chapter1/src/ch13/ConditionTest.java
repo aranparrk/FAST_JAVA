@@ -2,7 +2,7 @@ package ch13;
 
 import java.util.Scanner;
 
-public class ConitionTest {
+public class ConditionTest {
 
     public static void main(String[] args) {
         int max;
