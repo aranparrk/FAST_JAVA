@@ -1,4 +1,4 @@
-package ch01;
+package ch02;
 
 // public : 공용, 어디서든 접근 가능하다
 public class Student {
