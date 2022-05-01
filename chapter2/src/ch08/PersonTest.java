@@ -10,4 +10,8 @@ public class PersonTest {
 
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
