@@ -16,8 +16,4 @@ public class FoodOrderTest {
         foodOrder.showFoodOrder();
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
