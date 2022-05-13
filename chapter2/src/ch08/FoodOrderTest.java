@@ -14,6 +14,7 @@ public class FoodOrderTest {
         foodOrder.menuNumber = "0003";
 
         foodOrder.showFoodOrder();
+
     }
 
 }
