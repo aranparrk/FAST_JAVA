@@ -1,4 +1,4 @@
-package ch03;
+package ch04;
 
 public class MyLinkedList {
 
@@ -11,7 +11,6 @@ public class MyLinkedList {
     }
 
     public MyListNode addElement(String data) {
-
         MyListNode newNode;
         if (head == null) {  //맨 처음일때
             newNode = new MyListNode(data);
@@ -45,7 +44,6 @@ public class MyLinkedList {
             for (i = 0; i < position; i++) {
                 preNode = tempNode;
                 tempNode = tempNode.next;
-
             }
             newNode.next = preNode.next;
             preNode.next = newNode;
@@ -89,14 +87,13 @@ public class MyLinkedList {
         }
 
         if (position == 0) {  //맨 인 경우
-
             return head.getData();
         }
 
         for (i = 0; i < position; i++) {
             tempNode = tempNode.next;
-
         }
+
         return tempNode.getData();
     }
 
@@ -110,13 +107,11 @@ public class MyLinkedList {
         }
 
         if (position == 0) {  //맨 인 경우
-
             return head;
         }
 
         for (i = 0; i < position; i++) {
             tempNode = tempNode.next;
-
         }
         return tempNode;
     }
@@ -124,7 +119,6 @@ public class MyLinkedList {
     public void removeAll() {
         head = null;
         count = 0;
-
     }
 
     public int getSize() {
