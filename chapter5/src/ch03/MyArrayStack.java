@@ -21,7 +21,6 @@ public class MyArrayStack {
             System.out.println("stack is full");
             return;
         }
-
         arrayStack.addElement(data);
         top++;
     }

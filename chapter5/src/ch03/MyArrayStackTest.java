@@ -18,4 +18,5 @@ public class MyArrayStackTest {
         System.out.println("stack size is " + stack.getSize());
 
     }
+
 }
